@@ -5,7 +5,7 @@ body{
 }
 .top li{
     display: inline-block;
-    margin-left: 180px;
+    margin-left: 10%;
     margin-top: 15px;
 }
 .top ul li a{
@@ -15,6 +15,7 @@ body{
     background-color: rgb(255, 255, 255);
     color: black; 
     border-radius: 40px;
+    
 }
 a:hover{
     background-color: blue;
