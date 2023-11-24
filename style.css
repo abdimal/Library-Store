@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(images/photo-1481627834876-b7833e8f5570.avif);
+}
+.top li{
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+.top ul li a{
+    text-decoration: none;
+    font-size: 40px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    color: black; 
+    border-radius: 40px;
+}
+a:hover{
+    background-color: blue;
+}
+.top h1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    margin-top: 100px;
+}
+.top p{
+    max-width: 700px;
+    font-size: 30px;
+    margin-left: 500px;
+    color: white;
+}
+.middle table{
+    width: 80%;
+    height: 60vh;
+    margin-left: 100px;
+    color:blue;
+    font-size: 30px;
+    border: 3px solid ;
+    border-style: double;
+}
+.middle table td{
+    border: 3px solid ; 
+}
+.lst h1{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+.lst ol li{
+   margin-left: 620px;
+   color: white;
+   font-size: 30px;
+}
+.frm h2 {
+    color: red;
+    font-size: 30px;
+  }
+  .frm{
+    max-width: 500px;
+    margin-left: 600px;
+    margin-top: 100px;
+  }
+
+ .frm label {
+    display: block;
+    margin-bottom: 10px;
+    color:red;
+    font-size: 30px;
+  }
+
+  .frm input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .frm button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 30px;
+    margin-left: 150px;
+  }
+  .frm button:hover{
+    background-color: #00ff08;
+  }
